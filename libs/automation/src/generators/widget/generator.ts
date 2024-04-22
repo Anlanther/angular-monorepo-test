@@ -5,11 +5,11 @@ import {
   Tree,
 } from '@nx/devkit';
 import * as path from 'path';
-import { WidgetGeneratorGeneratorSchema } from './schema';
+import { WidgetGeneratorSchema } from './schema';
 
-export async function widgetGeneratorGenerator(
+export async function widgetGenerator(
   tree: Tree,
-  options: WidgetGeneratorGeneratorSchema
+  options: WidgetGeneratorSchema
 ) {
   const projectRoot = `libs/${options.name}`;
   addProjectConfiguration(tree, options.name, {
@@ -22,4 +22,4 @@ export async function widgetGeneratorGenerator(
   await formatFiles(tree);
 }
 
-export default widgetGeneratorGenerator;
+export default widgetGenerator;

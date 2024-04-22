@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/schema",
-  "$id": "WidgetGenerator",
+  "$id": "Widget",
   "title": "",
   "type": "object",
   "properties": {

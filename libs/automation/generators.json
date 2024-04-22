@@ -1,9 +1,9 @@
 {
   "generators": {
-    "widget-generator": {
-      "factory": "./src/generators/widget-generator/generator",
-      "schema": "./src/generators/widget-generator/schema.json",
-      "description": "widget-generator generator"
+    "widget": {
+      "factory": "./src/generators/widget/generator",
+      "schema": "./src/generators/widget/schema.json",
+      "description": "widget generator"
     }
   }
 }
