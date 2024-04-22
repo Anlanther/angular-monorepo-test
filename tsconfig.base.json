@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@angular-monorepo-test/automation": ["automation/src/index.ts"]
+      "@angular-monorepo-test/automation": ["libs/automation/src/index.ts"],
+      "@angular-monorepo-test/shared-ui": ["libs/shared-ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
